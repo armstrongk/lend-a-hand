@@ -1,0 +1,76 @@
+*{
+ margin: 0px;
+ padding: 0px
+}
+h1{
+	font: bold 20px tahoma;
+}
+h2{
+	font: bold 14px tahoma;
+}/*
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+
+}
+*/
+body{
+	text-align: center;
+}
+#faith{
+	border: 1px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	text-align:left;
+	
+}
+#top_header{
+	background:grey;
+	border: 1px solid black;
+	padding: 20px;
+}
+#top_menu{
+	background: blue;
+	color: white;
+	
+}
+#top_menu li{
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+	font bold 14px tahoma;
+}
+#main_section{
+	float:left;
+	width:660px;
+	margin:30px;
+}
+#side_news{
+	float:left;
+	width: 220px;
+	margin:20px 0px;
+	padding: 30px;
+	background: 66fcccc;
+}
+#footer{
+	clear:both;
+	text-align:center;
+	padding: 15px;
+	border: 1px solid green;
+}
+article{
+	background:fffbcc;
+	border: 1px solid red;
+	padding: 20px;
+	margin-bottom:10px;
+	 border:1px solid #0099ff;
+	 -moz-border-radius: 10px;
+	 -webkit-border-radius: 10px;
+	 -khtml-border-radius: 10px;
+	 border-radius: 10px;   
+	 
+	 }
+}
+article footer{
+	text-align:left;
+	color: red;
+}
